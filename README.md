@@ -15,4 +15,4 @@ Then, you need to add a `src/main/webapp/META-INF/context.xml` (supposing you us
 ```
 ## License
 
-This project is licensed under the Apache Software License version 2.0.
+This project is licensed under the Apache License version 2.0.
