@@ -24,6 +24,7 @@ Then, you need to add a `src/main/webapp/META-INF/context.xml` (supposing you us
 <?xml version="1.0" encoding="UTF-8" ?>
 <Context>
 	<Loader loaderClass="fr.openwide.tomcat.catalina.loader.WebappOrderedClassLoader" />
+	<Resources className="fr.openwide.tomcat.catalina.loader.OrderedStandardRoot"/>
 </Context>
 ```
 
