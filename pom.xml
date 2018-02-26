@@ -14,7 +14,7 @@
 
 		<jdk.version>1.7</jdk.version>
 		
-		<tomcat.version>8.5.5</tomcat.version>
+		<tomcat.version>8.5.28</tomcat.version>
 
 		<maven-compiler-plugin.version>3.3</maven-compiler-plugin.version>
 	</properties>

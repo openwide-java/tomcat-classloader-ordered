@@ -18,9 +18,9 @@ import org.apache.catalina.WebResourceSet;
 
 public class OrderedWebResourceRoot implements WebResourceRoot {
 
-	private static final String WEB_INF_LIB_PATH = "/WEB-INF/lib";
+	static final String WEB_INF_LIB_PATH = "/WEB-INF/lib";
 
-	private static final Comparator<WebResource> WEB_RESOURCE_COMPARATOR = new Comparator<WebResource>() {
+	static final Comparator<WebResource> WEB_RESOURCE_COMPARATOR = new Comparator<WebResource>() {
 		@Override
 		public int compare(WebResource o1, WebResource o2) {
 			return o1.getName().compareTo(o2.getName());
