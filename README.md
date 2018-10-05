@@ -1,3 +1,7 @@
+Discontinued
+============
+This repository is no longer actively maintained. You may fork it if need be.
+
 # tomcat-classloader-ordered
 
 A classloader for Apache Tomcat 8 which loads the jars of WEB-INF lib in alphabetical order.
